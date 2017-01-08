@@ -1,0 +1,17 @@
+packages: [
+  "atom-css-comb"
+  "atom-import-sort"
+  "atom-ternjs"
+  "color-picker"
+  "duotone-dark-space-syntax"
+  "file-icons"
+  "highlight-selected"
+  "language-babel"
+  "language-vue"
+  "linter"
+  "linter-eslint"
+  "linter-stylelint"
+  "nord-atom-syntax"
+  "package-sync"
+  "pigments"
+]

@@ -1,0 +1,59 @@
+"*":
+  "atom-beautify": {}
+  "atom-ctags":
+    cmdArgs: "--exclude=jspm_packages --exclude=node_modules"
+  "atom-import-sort": {}
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
+  "color-picker":
+    automaticReplace: true
+  core:
+    allowPendingPaneItems: false
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "nord-atom-syntax"
+    ]
+    useCustomTitleBar: true
+  editor:
+    fontFamily: "Fira Mono"
+    invisibles: {}
+  "exception-reporting":
+    userId: "4d11eacc-c0db-00b2-2d8b-93ebdd819c1f"
+  "file-icons":
+    onChanges: true
+  jshint:
+    supportLintingJsx: true
+  "language-babel": {}
+  linter:
+    errorPanelHeight: 47
+  "linter-eslint": {}
+  "linter-jshint": {}
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui":
+    tabSizing: "Even"
+  "one-light-ui": {}
+  pigments:
+    supportedFiletypes: [
+      "css"
+      "scss"
+    ]
+  "sync-settings":
+    _analyticsUserId: "f6a07d4b-10b3-4dce-a9b5-bf276d376b1b"
+  tabs: {}
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
