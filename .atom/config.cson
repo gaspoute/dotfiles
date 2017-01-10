@@ -10,6 +10,8 @@
     enabled: true
   "color-picker":
     automaticReplace: true
+  "command-palette":
+    preserveLastSearch: true
   core:
     allowPendingPaneItems: false
     disabledPackages: [
@@ -28,6 +30,13 @@
     userId: "4d11eacc-c0db-00b2-2d8b-93ebdd819c1f"
   "file-icons":
     onChanges: true
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
+    scrollToResultOnLiveSearch: true
+  "fuzzy-finder":
+    preserveLastSearch: true
+  "git-diff":
+    showIconsInEditorGutter: true
   jshint:
     supportLintingJsx: true
   "language-babel": {}
