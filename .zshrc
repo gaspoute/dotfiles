@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/gaspar/.oh-my-zsh
+export ZSH=/home/gaspar/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -104,33 +104,11 @@ bindkey '^[[B' history-substring-search-down
 alias f="fuck"
 alias a="atom"
 
-# Show all 256 colors with color number
-function spectrum_ls() {
-  for code in {000..255}; do
-    print -P -- "$code: %{$FG[$code]%}$ZSH_SPECTRUM_TEXT%{$reset_color%}"
-  done
-}
-
 [[ "$TERM" == "xterm" ]] && export TERM=xterm-256color
 
-RED=203
+RED=210
 GREEN=065
 BLUE=067
 YELLOW=223
 CYAN=073
-DARK_GREY=236
-
-ZSH_HIGHLIGHT_STYLES[unknown-token]='fg='$RED',bold'
-ZSH_HIGHLIGHT_STYLES[reserved-word]='fg='$YELLOW
-ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg='$GREEN',underline'
-ZSH_HIGHLIGHT_STYLES[precommand]='fg='$GREEN',underline'
-ZSH_HIGHLIGHT_STYLES[globbing]='fg='$BLUE
-ZSH_HIGHLIGHT_STYLES[history-expansion]='fg='$BLUE
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg='$YELLOW
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg='$YELLOW
-ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]='fg='$YELLOW
-ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg='$CYAN
-ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]='fg='$CYAN
-ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]='fg='$CYAN
-ZSH_HIGHLIGHT_STYLES[comment]='fg='$DARK_GREY',bold'
-ZSH_HIGHLIGHT_STYLES[arg0]='fg='$GREEN
+GREY=245

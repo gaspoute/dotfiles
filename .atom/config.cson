@@ -53,6 +53,8 @@
   "one-dark-ui":
     tabSizing: "Even"
   "one-light-ui": {}
+  "package-sync":
+    createOnChange: true
   pigments:
     supportedFiletypes: [
       "css"
