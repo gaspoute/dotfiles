@@ -23,8 +23,11 @@
       "nord-atom-syntax"
     ]
     useCustomTitleBar: true
+  docblockr:
+    spacer_between_sections: true
   editor:
     fontFamily: "Fira Mono"
+    fontSize: 16
     invisibles: {}
   "exception-reporting":
     userId: "4d11eacc-c0db-00b2-2d8b-93ebdd819c1f"
